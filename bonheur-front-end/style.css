@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {}
+
+img.logo1 {
+    width: 100px;
+    height: auto;
+
+}
+
+nav {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 80%;
+    margin: auto;
+}
+
+ul.navbar li,
+a {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 8px 0px 0px 0px;
+
+}
+
+ul.navbar li a:hover {
+    text-decoration: underline;
+
+}
+
+ul.navbar li {
+    display: inline-block;
+}
+
+button.login.button {
+    border-radius: 12px;
+
+    border: none;
+    padding: 8px 12px 8px 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.login.button:hover {
+
+    background-color: #1c4d65;
+    color: white;
+
+}
+
+div.front {
+    background-image: url(resources/minimalist.png);
+    background: cover;
+
+
+}
+
+div.content {
+    padding: 10em 0 4em 0;
+
+}
+
+
+
+div.content h1,
+div.content p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   
+    
+   
+}
+
+button.chat {
+   
+    padding: 1.0em 3em 1.0em 3em;
+    font-size: 2em;
+    border-radius: 10px;
+
+    background-color: #1c4d65;
+    color: white;
+
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+   margin:2em auto auto auto;
+    display: block;
+
+
+}
+
+button.chat:hover {
+
+
+    background-color: #e7e7e7;
+    color: black;
+
+}
+p.content.main,img.content.main{
+    display:inline;
+}
